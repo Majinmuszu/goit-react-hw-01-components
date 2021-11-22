@@ -1,0 +1,28 @@
+.statistics {
+  width: 360px;
+  background-color: rgb(230, 189, 189);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+.statList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border: rgb(145, 132, 165) 1px solid;
+  border-radius: 10%;
+  box-shadow: 5px 5px 20px;
+  width: 80px;
+  height: 70px;
+  text-align: center;
+  padding-top: 30px;
+}
+.title {
+    text-transform: uppercase;
+}
